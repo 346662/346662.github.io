@@ -66,8 +66,8 @@ body {margin:0 auto;overflow:hidden;}
 	position:absolute;
 	z-index:30;
 	top:420px;
-	left: 60%;
-	margin-left: -270px;
+	left:50%;
+
 	}
 .header .nav a.gv { 
 	text-decoration:none; 
