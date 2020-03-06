@@ -12,7 +12,7 @@ body {margin:0 auto;overflow:hidden;}
 .header canvas {
 	width:100%;height:auto/*默认全屏显示 可自己设置高度640px*/;
 	display:inline-block;vertical-align:baseline
-	position:absolute;
+	position:fixed;
 	z-index:-1;
 	}
 .header .canvaszz{  /*用来解决视频右键菜单，用于视频上面的遮罩层*/
@@ -42,7 +42,7 @@ body {margin:0 auto;overflow:hidden;}
 	margin:0 auto;
 	width:750px;
 	height:200px;
-	position:absolute;
+	position:fixed;
 	z-index:30;
 	top:10px;
 	left: 52%;
@@ -54,7 +54,7 @@ body {margin:0 auto;overflow:hidden;}
 	width: 980px;
 	top:200px;
 	left: 50%;
-	margin-left: -490px;
+
 	position:fixed;
 	z-index:20;
 	}
