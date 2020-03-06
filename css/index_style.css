@@ -7,12 +7,12 @@ body {margin:0 auto;overflow:hidden;}
 	width:100%;
 	height:640px;
 	background-color:#000;
-	position:fixed;
+	position:relative;
 	}
 .header canvas {
 	width:100%;height:auto/*默认全屏显示 可自己设置高度640px*/;
 	display:inline-block;vertical-align:baseline
-	position:fixed;
+	position:absolute;
 	z-index:-1;
 	}
 .header .canvaszz{  /*用来解决视频右键菜单，用于视频上面的遮罩层*/
@@ -42,7 +42,7 @@ body {margin:0 auto;overflow:hidden;}
 	margin:0 auto;
 	width:750px;
 	height:200px;
-	position:fixed;
+	position:absolute;
 	z-index:30;
 	top:10px;
 	left: 52%;
@@ -54,8 +54,8 @@ body {margin:0 auto;overflow:hidden;}
 	width: 980px;
 	top:200px;
 	left: 50%;
-
-	position:fixed;
+	margin-left: -490px;
+	position:absolute;
 	z-index:20;
 	}
 	
@@ -174,6 +174,7 @@ left: 45%
 	margin:8px 2px 8px 2px;
 	font:20px/43px 'microsoft yahei'; color:#066197;
 	}
+
 .nav4 a.gv4:hover { 
 	background: url(../images/nav_gv.png) repeat 0px -43px; 
 	color:#1d7eb8;
