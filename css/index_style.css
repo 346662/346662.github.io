@@ -162,7 +162,7 @@ left: 45%
 .nav4{
 	width:540px;
 	height:1000px;
-	position:absolute;
+	position:fixed;
 	z-index:30;
 	top:570px;
 	left: 45%;
