@@ -7,7 +7,7 @@ body {margin:0 auto;overflow:hidden;}
 	width:100%;
 	height:640px;
 	background-color:#000;
-	position:relative;
+	position:fixed;
 	}
 .header canvas {
 	width:100%;height:auto/*默认全屏显示 可自己设置高度640px*/;
@@ -55,7 +55,7 @@ body {margin:0 auto;overflow:hidden;}
 	top:200px;
 	left: 50%;
 	margin-left: -490px;
-	position:absolute;
+	position:fixed;
 	z-index:20;
 	}
 	
