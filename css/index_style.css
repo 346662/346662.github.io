@@ -5,15 +5,13 @@ body {margin:0 auto;overflow:hidden;}
 .header{
 	margin:0 auto;
 	width:100%;
-	height:640px;
 	background-color:#000;
-	position:relative;
+	position:fixed;
 	}
 .header canvas {
 	width:100%;height:auto/*默认全屏显示 可自己设置高度640px*/;
 	display:inline-block;vertical-align:baseline
 
-	z-index:-1;
 	}
 .header .canvaszz{  /*用来解决视频右键菜单，用于视频上面的遮罩层*/
 	width:100%;
@@ -49,22 +47,23 @@ body {margin:0 auto;overflow:hidden;}
 	margin-left: -390px;
 	}	
 
-
 	.header	.topcn{
 	width: 980px;
-	top:30%;
+	height:auto;
+	top:33%;
 	left: 50%;
 	margin-left: -490px;
-	position:absolute;
+	position:fixed;
 	z-index:20;
 	}
 	
-		.header	.topcn2{
+.header	.topcn2{
 	width: 980px;
+		height:auto;
 	top:42%;
 	left: 50%;
 	margin-left: -490px;
-	position:absolute;
+	position:fixed;
 	z-index:20;
 	}
 	
